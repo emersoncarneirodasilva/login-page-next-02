@@ -1,13 +1,9 @@
 import { FaUser, FaLock } from "react-icons/fa"
 import NextLink from "next/link";
-import Head from "next/head";
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Login</title>
-      </Head>
       {/* Container */}
       <div className="bg-gradient-to-r from-green-300 via-yellow-50 to-green-300 block h-screen items-center justify-center p-4 md:flex">
         {/* Login card */}
